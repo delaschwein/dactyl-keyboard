@@ -14,8 +14,8 @@
 debug_*
 */__pycache__/*
 *~$*
-things/
 .DS_Store
-things/*.stl
+things/*.scad
+things/*.step
 *.3mf
 *.dxf
