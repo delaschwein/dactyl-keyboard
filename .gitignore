@@ -16,8 +16,6 @@ debug_*
 *~$*
 things/
 .DS_Store
-things/*.scad
-things/*.step
 things/*.stl
 *.3mf
 *.dxf
