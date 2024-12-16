@@ -47,8 +47,8 @@ try:
     print('Found Current Engine in Config = {}'.format(ENGINE))
 except Exception:
     print('Engine Not Found in Config')
-    ENGINE = 'solid'
-    # ENGINE = 'cadquery'
+    #ENGINE = 'solid'
+    ENGINE = 'cadquery'
     print('Setting Current Engine = {}'.format(ENGINE))
 
 if save_dir in ['', None, '.']:
@@ -57,6 +57,8 @@ if save_dir in ['', None, '.']:
 else:
     save_path = path.join(r"..", "things", save_dir)
     parts_path = path.join(r"..", r"..", "src", "parts")
+
+parts_path = './parts/'
 
 ###############################################
 # END EXTREMELY UGLY BOOTSTRAP

@@ -1,5 +1,5 @@
 {
-    "ENGINE": "solid",
+    "ENGINE": "cadquery",
     "save_dir": "main",
     "config_name": "main",
     "show_caps": false,
